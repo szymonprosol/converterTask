@@ -9,7 +9,7 @@ public class ConverterConfiguration {
 
     @Bean
     public HttpMessageConverter<Object> customSlashConverter() {
-        return new MyCustomAsteriskConverter();
+        return new MyCustomEtConverter();
     }
 
 }

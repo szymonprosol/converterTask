@@ -15,7 +15,7 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-public class MyCustomAsteriskConverter implements HttpMessageConverter<Object> {
+public class MyCustomEtConverter implements HttpMessageConverter<Object> {
 
     @Override
     public boolean canRead(Class<?> clazz, MediaType mediaType) {
